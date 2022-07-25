@@ -71,9 +71,11 @@ $('#login_form').on('submit', function(e) {
 //         username: logUsername.value,
 //         password: logPassword.value
 //     }
-//     console.log(paramsObj);
+//     console.log(paramsObj, 22222);
 //     axios.post('http://www.liulongbin.top:3007/api/login', paramsObj).then(function(res) {
+//         console.log(res)
 //         if (res.data.status !== 0) return layer.msg(res.data.message);
-//         layer.msg(res.message);
+//         layer.msg(res.data.message);
+
 //     })
 // })
